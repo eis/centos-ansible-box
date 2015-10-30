@@ -1,10 +1,12 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-# Fill out these!
-# Or, even better, define them in your environment
-ENV['http_proxy'] =
-ENV['https_proxy'] = "#{ENV['http_proxy']}"
+# Define these here if they are not defined
+# in your environment and you don't want to
+# define them there
+
+# ENV['http_proxy'] = ...
+# ENV['https_proxy'] = "#{ENV['http_proxy']}"
 
 required_plugins = %w(vagrant-proxyconf)
 
